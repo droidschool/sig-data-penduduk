@@ -1,0 +1,42 @@
+#box{
+  width: 500px;
+  margin: 10% auto;
+  background-image: url(/assets/dist/img/awan.svg);
+  background-size: 250px 90px;
+  background-position: right bottom;
+  background-repeat: no-repeat;
+}
+
+#box-head{
+  text-align: center;
+}
+
+#box-body{
+  padding: 5%;
+  /*border: 1px solid rgb(231, 194, 0);*/
+}
+
+.input{
+  /*margin-left: 100px;
+  margin-bottom: 20px;
+  margin-right: 100px;*/
+  margin: 0 100px 20px;
+  width: 250px;
+  height: 20px;
+  border: 1px solid #ec450c;
+  padding: 5px;
+}
+
+.btn-login{
+  background: #ffffff;
+  border: 1px solid #670a79;
+  width: 80px;
+  height: 30px;
+
+}
+
+.btn-login:hover{
+  background: #670a79;
+  color: #fffbfc;
+  cursor: pointer;
+}
